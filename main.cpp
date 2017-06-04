@@ -1,6 +1,7 @@
 #include <iostream>
 #include "cBall.cpp"
 #include "cPaddle.cpp"
+#include "cGameManger.cpp"
 
 using namespace std;
 

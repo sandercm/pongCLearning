@@ -3,5 +3,5 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES main.cpp cBall.cpp cBall.h cPaddle.cpp cPaddle.h)
+set(SOURCE_FILES main.cpp cBall.cpp cBall.h cPaddle.cpp cPaddle.h cGameManger.cpp cGameManger.h)
 add_executable(untitled ${SOURCE_FILES} cBall.cpp cBall.h)
