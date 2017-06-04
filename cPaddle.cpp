@@ -1,7 +1,7 @@
 //
 // Created by Sander on 6/4/2017.
 
-#include <iostream>;
+#include <iostream>
 
 using namespace std;
 class cPaddle{

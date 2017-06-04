@@ -42,4 +42,28 @@ public:
         player1 ->reset();
         player2 ->reset();
     }
+    void draw(){
+        system("cls");
+        for(int i = 0; i < height; i++){
+            for(int j = 0; j < width; j++){
+                int ballx = ball->getX();
+                int bally = ball->getY();
+                int player1x = player1->getX();
+                int player1y = player1->getY();
+                int player2x = player2->getX();
+                int player2y = player2->getY();
+
+                if(j == 0){
+                    cout << "#";
+                }
+
+                if(j == width-1){
+                    cout << "#";
+                }
+            }
+        }
+        for(int i = 0; i < width +2; i++){
+            cout << "#" << endl;
+        }
+    }
 };
